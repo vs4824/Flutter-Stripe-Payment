@@ -75,7 +75,7 @@ Stripe offers publishableKey, stripeAccountId, threeDSecureParams and merchantId
 
 The library offers several methods to handle stripe related actions:
 
-  `Future<PaymentMethod> createPaymentMethod(...);
+ `Future<PaymentMethod> createPaymentMethod(...);
   Future<PaymentIntent> handleNextAction(...);
   Future<PaymentIntent> confirmPayment(...);
   Future<void> configure3dSecure(...);
@@ -85,7 +85,6 @@ The library offers several methods to handle stripe related actions:
   Future<SetupIntent> confirmSetupIntent(...);
   Future<PaymentIntent> retrievePaymentIntent(...);
   Future<String> createTokenForCVCUpdate(...);
-
   Future<void> initPaymentSheet(...);
   Future<void> presentPaymentSheet(...);
   Future<void> confirmPaymentSheetPayment()`
